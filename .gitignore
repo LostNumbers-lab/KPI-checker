@@ -1,0 +1,9 @@
+node_modules/
+.openai/
+.sites-*/
+outputs/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+{
+  "name": "kpi-checker",
+  "version": "1.1.0",
+  "private": true,
+  "description": "YouTube, Facebook, Instagram, X 소셜 KPI 대시보드",
+  "scripts": {
+    "start": "node preview.cjs",
+    "thumbnails": "node create-thumbnails.cjs",
+    "check": "node --check dist/app.js && node --check preview.cjs && node --check create-thumbnails.cjs"
+  }
+}
