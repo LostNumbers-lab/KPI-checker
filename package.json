@@ -1,8 +1,8 @@
 {
   "name": "kpi-checker",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "YouTube, Facebook, Instagram, X 소셜 KPI 대시보드",
+  "description": "실제 소셜 계정 관찰 데이터 기반 KPI 대시보드",
   "scripts": {
     "start": "node preview.cjs",
     "thumbnails": "node create-thumbnails.cjs",
